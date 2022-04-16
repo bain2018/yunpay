@@ -3,7 +3,7 @@
     "description": "云账户综合服务平台 API 调用封装",
     "type": "library",
     "keywords": ["云账户"],
-    "homepage": "https://github.com/putyy/yun-pay.git",
+    "homepage": "https://github.com/bain2018/yunpay",
     "license": "MIT",
     "authors": [
         {
