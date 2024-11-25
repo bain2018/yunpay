@@ -16,7 +16,7 @@ namespace WGCYunPay\Data;
 class Router
 {
     //主要接口
-    const SERVICE_URL     = 'https://api-jiesuan.yunzhanghu.com';
+    const SERVICE_URL     = 'https://api-service.yunzhanghu.com';
 
     //+----------------------------------
     //|  打款接⼝ 支付提交地址
@@ -202,6 +202,28 @@ class Router
      */
     const TEST_RESCIND  = 'api/sdk/v1/sign/release';
 
+    //+----------------------------------
+    //|  api签约相关接口
+    //+----------------------------------
+    /**
+     *  获取协议预览 URL
+     */
+    const CONTRACT_SIGN      = 'api/sign/v1/user/contract';
+
+    /**
+     *  签约接口
+     */
+    const API_SIGN       = 'api/sign/v1/user/sign';
+
+    /**
+     * 获取用户签约状态
+     */
+    const API_SIGN_STATUS   = 'api/sign/v1/user/status';
+
+    /**
+     * 对接测试解约接口
+     */
+    const API_TEST_RESCIND  = 'api/sign/v1/user/release';
 
     public static function getRouter(string $route = ''): string
     {
