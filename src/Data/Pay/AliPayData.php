@@ -26,6 +26,12 @@ class AliPayData extends BaseData
     public $card_no;
 
     /**
+     * ⽤户或联系⼈⼿机号(选填)
+     * @var
+     */
+    public $phone_no;
+
+    /**
      * 校验⽀付宝账户姓名，可填 Check、NoCheck
      * @var string
      */
